@@ -305,6 +305,7 @@ small {
 	gap: 5rem;
 }
 #idiomas{
+	cursor: pointer;
 	display: flex;
 	align-items: center;
 	gap: 5rem;
