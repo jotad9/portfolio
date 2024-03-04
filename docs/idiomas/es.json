@@ -1,0 +1,49 @@
+{
+    "navbar":{
+        "about":"Acerca de mi",
+        "skills":"Skills",
+        "projects":"Proyectos",
+        "contact":"Contacto"
+    },
+    "hero":{
+        "title":"Hey 👋🏽, me llamo",
+        "subtitle":"y soy ",
+        "intro": "Soy un apasionado de la programación, me encanta aprender y tener retos que me ayuden a crecer como profesional.",
+        "button":"Descargar CV"
+    },
+    "aboutMe":{
+        "title":"Acerca",
+        "smallLetters":"de mi",
+
+        "description":"Me apasiona enferntarme a problemas desafiantes  para poder aprender y resolverlos.La programación me brinda la oportunidad de combinar mi pasión por la lógica y la creatividad para crear aplicaciones funcionales y atractivas.",
+
+        "description2":"A través de mis estudios, obtuve una sólida comprensión de los conceptos de desarrollo web y multiplataforma con el grado superior DAM y estudiando por mi cuenta he dedicado mucho tiempo a aplicar estos conceptos a escenarios y aplicaciones del mundo real.",
+
+        "description3":"Mi enfoque en el desarrollo va más allá de escribir código. Me esfuerzo por comprender las necesidades del usuario final y diseñar soluciones que no solo funcionen bien, sino que también proporcionen una experiencia excepcional. Creo firmemente en la importancia de la usabilidad y la accesibilidad."
+
+    },
+    "skills":{
+        "description":"Las tecnologías que uso para crear aplicaciones web y móviles:"
+    },
+    "projects":{
+        "title":"royectos",
+        "description":"Estos son algunos de los proyectos que he desarrollado:",
+
+        "titulo1":"BlackJack",
+        "descripcion1":"Juego de cartas BlackJack, donde se puede jugar contra la maquina.",
+
+        "titulo2":"CRUD DE DISPOSITIVOS",
+        "descripcion2":"Aplicación web para gestionar dispositivos, con un CRUD completo.",
+
+        "titulo3":"TRES EN RAYA",
+        "descripcion3":"Aplicacion para movil para jugar al tres en raya",
+
+        "titulo4":">Weather App",
+        "descripcion4":"Aplicación web para consultar el tiempo de cualquier ciudad del mundo."
+    },
+    "contact":{
+        "title":"Quieres conocerme?",
+        "button":"Pincha aqui →"
+    }
+
+}

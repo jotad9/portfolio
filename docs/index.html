@@ -17,40 +17,45 @@
 		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 		
 		<title>Juan Daniel - Full stack Developer</title>
-		<script type="module" crossorigin src="/portfolio/assets/index-a1d5f6f6.js"></script>
-		<link rel="stylesheet" href="/portfolio/assets/index-6cbed794.css">
+		<script type="module" crossorigin src="/portfolio/assets/index-08719939.js"></script>
+		<link rel="stylesheet" href="/portfolio/assets/index-7dbe84e8.css">
 	</head>
 	<body>
-		<!-- only for keyboard users -->
-		<a class="skip-to-content" href="#main-content">Skip to content</a>
 
 		<header class="main-header">
 			<nav class="nav slide-in-top">
 				<div class="container">
-					<a href="#">
-						<img src="/portfolio/assets/iconPortfolio-0b3727c1.jpg" alt="williams" class="logo" />
-						<title>Logo</title>
-					</a>
-
+					<img src="/portfolio/assets/iconPortfolio-0b3727c1.jpg" alt="juan" class="logo" />
+					
 					<ul class="nav-list">
 						<li>
-							<a href="#about" class="nav-links hover-effect">Acerca de mi</a>
+							<a href="#about" class="nav-links hover-effect" data-section="navbar" data-value="about">Acerca de mi</a>
 						</li>
 						<li>
-							<a href="#skills" class="nav-links hover-effect">Skills</a>
+							<a href="#skills" class="nav-links hover-effect" data-section="navbar" data-value="skills">Skills</a>
 						</li>
 						<li>
-							<a href="#projects" class="nav-links hover-effect">Proyectos</a>
+							<a href="#projects" class="nav-links hover-effect" data-section="navbar" data-value="projects">Proyectos</a>
 						</li>
 						<li>
-							<a href="#contact" class="nav-links hover-effect">Contacto</a>
+							<a href="#contact" class="nav-links hover-effect" data-section="navbar" data-value="contact">Contacto</a>
 						</li>
 					</ul>
-
+					<ul id="idiomas" class="idiomas">
+						<li>
+							<div class="idiomas__item" data-language="es">
+								<a  class="nav-links hover-effect" >ES</a>
+							</div>
+							/
+							<div class="idiomas__item" data-language="en">
+								<a  class="nav-links hover-effect" >EN</a>
+							</div>
+						</li>
+					</ul>
 					<ul class="social-nav">
 						<li>
 							<a
-								href="https://www.linkedin.com/in/juan-daniel-oter-de-la-hoz-3b97a421b/"
+								href="https://www.linkedin.com/in/juan-daniel-oter-3b97a421b/"
 								rel="noreferrer"
 								target="_blank"
 								aria-label="link to linkedin profile"
@@ -83,15 +88,16 @@
 				<div class="container">
 					<article class="hero-text bounce-in-left">
 						<div>
-							<h3 class="homeTittle">Hey 👋🏽, me llamo</h3>
+							<h3 class="homeTittle" 
+							data-section="hero" data-value="title">Hey 👋🏽, me llamo</h3>
 							<h1 class="name">Juan Daniel</h1>
-							<h3 class="home-content"><span class="homeTittle">y soy </span><span class="text"></span></h3>
+							<h3 class="home-content"><span class="homeTittle" data-section="hero" data-value="subtitle">y soy </span><span class="text"></span></h3>
 						</div>
 						<div>
-							<p><span class="intro"></span></p>
+							<p class="intro" data-section="hero" data-value="intro">Soy un apasionado de la programación, me encanta aprender y tener retos que me ayuden a crecer como profesional.</p>
 
 							<div class="hero-btn-container">
-								<a href="https://drive.google.com/file/d/1JcRBzoksFClfCGGVU_tU0KtBVEFGhtZo/view?usp=sharing" class="btn hire-btn">
+								<a href="https://drive.google.com/file/d/1JcRBzoksFClfCGGVU_tU0KtBVEFGhtZo/view?usp=sharing" class="btn hire-btn" data-section="hero" data-value="button"> 
 									Download CV
 								</a>
 							</div>
@@ -107,18 +113,20 @@
 			<!-- about section -->
 			<section class="about-me" id="about">
 				<div class="container" data-aos="fade-up">
-					<img src="/portfolio/assets/imagenPortfolio2-507414d9.jpg" alt="Williams Samuel" />
+					<img src="/portfolio/assets/imagenPortfolio2-507414d9.jpg" alt="Juan Daniel" />
 					<article>
-						<h2 class="title"><span id="letras">Acerca</span> de mi</h2>
+						<h2 class="title"><span id="letras" data-section="aboutMe" data-value="title">Acerca</span>
+							<span data-section="aboutMe" data-value="smallLetters">de mi</span>
+						</h2>
 						<div class="about">
-							<p>
-								Me apasiona enfrentarme a problemas desafiantes 
+							<p data-section="aboutMe" data-value="description">
+								Me apasiona enferntarme a problemas desafiantes 
 								para poder aprender y resolverlos.
 								La programación me brinda la oportunidad de combinar
 								mi pasión por la lógica y la creatividad para crear
 								aplicaciones funcionales y atractivas.
 							</p>
-							<p>
+							<p data-section="aboutMe" data-value="description2">
 								A través de mis estudios, obtuve una sólida 
 								comprensión de los conceptos de desarrollo web
 								y multiplataforma con el grado superior DAM 
@@ -126,7 +134,7 @@
 								tiempo a aplicar estos conceptos a escenarios
 								y aplicaciones del mundo real.
 							</p>
-							<p>
+							<p data-section="aboutMe" data-value="description3">
 								Mi enfoque en el desarrollo va más allá de
 								escribir código. Me esfuerzo por comprender
 								las necesidades del usuario final y diseñar
@@ -147,7 +155,7 @@
 					<article>
 						<h2 class="title"><span id="letras">S</span>kills</h2>
 
-						<p >
+						<p data-section="skills" data-value="description">
 							Las tecnologías que uso para crear aplicaciones web y móviles:
 						</p>
 					</article>
@@ -191,8 +199,12 @@
 			<section class="projects-section" id="projects">
 				<div class="container">
 					<section class="other-noteworthy-project" data-aos="fade-up">
-						<h2 class="title"><span id="letras">P</span>royectos</h2>
-						<p>Estos son los proyectos que he desarrollado:</p>
+						<h2 class="title">
+							
+							<span id="letras">P</span>rojects
+
+						</h2>
+						<p data-section="projects" data-value="description">Estos son algunos de los proyectos que he desarrollado:</p>
 						<ul class="other-projects">
 							<li>
 								<a
@@ -203,9 +215,9 @@
 										src="/portfolio/assets/BlackJack-190fd19b.png"
 										alt="rest countries page screenshot" />
 									<div>
-										<h4>BlackJack</h4>
-										<p>
-											Tipico juego del BlackJack, donde se puede jugar contra la maquina
+										<h4 data-section="projects" data-value="titulo1">BlackJack</h4>
+										<p data-section="projects" data-value="descripcion1">
+											Juego de cartas BlackJack, donde se puede jugar contra la maquina
 										</p>
 										<ul>
 											<li>HTML5/CSS3</li>
@@ -225,10 +237,9 @@
 										src="/portfolio/assets/crudDispositivos-c2333696.png"
 										alt="CRUD de Dispositivos" />
 									<div>
-										<h4>CRUD DE DISPOSITIVOS</h4>
-										<p>
-											Aplicacion web para el control de dispositivos
-											para usar los http request
+										<h4 data-section="projects" data-value="titulo2">CRUD DE DISPOSITIVOS</h4>
+										<p data-section="projects" data-value="descripcion2">
+											Aplicación web para gestionar dispositivos, con un CRUD completo.
 										</p>
 										<ul>
 											<li>HTML5/CSS3</li>
@@ -247,8 +258,8 @@
 										src="/portfolio/assets/tresEnRaya-bc03d256.png"
 										alt="foto de juego tres en raya" />
 									<div>
-										<h4>TRES EN RAYA</h4>
-										<p>
+										<h4 data-section="projects" data-value="titulo3">TRES EN RAYA</h4>
+										<p data-section="projects" data-value="descripcion3">
 											Aplicacion para movil
 											para jugar al tres en raya
 										</p>
@@ -260,7 +271,7 @@
 							</li>
 							<li>
 								<a
-									href="https://github.com/jotad9/weather.git"
+									href="https://jotad9.github.io/myWeather/"
 									target="_blank"
 									rel="noreferrer"
 									>
@@ -268,8 +279,8 @@
 										src="/portfolio/assets/weather-app-97a9e3bc.png"
 										alt="Weather App" />
 									<div>
-										<h4>Weather App</h4>
-										<p>
+										<h4 data-section="projects" data-value="titulo4">Weather App</h4>
+										<p data-section="projects" data-value="descripcion4"> 
 											Aplicacion web
 											para ver el tiempo
 										</p>
@@ -287,10 +298,10 @@
 			<!-- contact section -->
 			<section class="contact" data-aos="fade-up">
 				<div class="container">
-					<h1 class="subtitle">Quieres conocerme?</h1>
+					<h1 class="subtitle" data-section="contact" data-value="title">Quieres contactar conmigo?</h1>
 
 					<div>
-						<a href="mailto:jotadaniel@gmail.com" class="mail-link hover-effect">Pincha aqui →</a>
+						<a href="mailto:jotadaniel@gmail.com" class="mail-link hover-effect" data-section="contact" data-value="button">Pincha aqui →</a>
 					</div>
 				</div>
 			</section>
