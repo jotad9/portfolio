@@ -14,9 +14,9 @@
     "aboutMe":{
         "title":"About",
         "smallLetters":"me",
-        "description":"I am passionate about tackling challenging problems in order to learn and solve them. Programming gives me the opportunity to combine my passion for logic and creativity to create functional and attractive applications.",
+        "description":"Through my studies, I gained a solid understanding of web and cross-platform development concepts with the DAM higher degree and studying on my own I have spent a lot of time applying these concepts to real-world scenarios and applications.",
 
-        "description2":"Through my studies, I gained a solid understanding of web and cross-platform development concepts with the DAM higher degree and studying on my own I have spent a lot of time applying these concepts to real-world scenarios and applications.",
+        "description2":"I am passionate about backend development, especially the Java programming language and its best-known framework SpringBoot, combining it with microservices. It is a framework that I like because of its robustness when it comes to large projects for companies.",
 
         "description3":"My approach to development goes beyond writing code. I strive to understand the needs of the end user and design solutions that not only work well, but also provide an exceptional experience. I firmly believe in the importance of usability and accessibility."
 
@@ -25,6 +25,7 @@
         "description":"The technologies I use to create web and mobile applications:"
     },
     "projects":{
+        "letras": "P",
         "title":"rojects",
         "description":"These are some of the projects I have developed:",
 

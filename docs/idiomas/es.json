@@ -15,9 +15,9 @@
         "title":"Acerca",
         "smallLetters":"de mi",
 
-        "description":"Me apasiona enfrentarme a problemas desafiantes  para poder aprender y resolverlos.La programación me brinda la oportunidad de combinar mi pasión por la lógica y la creatividad para crear aplicaciones funcionales y atractivas.",
+        "description":"A través de mis estudios, obtuve una sólida comprensión de los conceptos de desarrollo web y multiplataforma con el grado superior DAM y estudiando por mi cuenta he dedicado mucho tiempo a aplicar estos conceptos a escenarios y aplicaciones del mundo real.",
 
-        "description2":"A través de mis estudios, obtuve una sólida comprensión de los conceptos de desarrollo web y multiplataforma con el grado superior DAM y estudiando por mi cuenta he dedicado mucho tiempo a aplicar estos conceptos a escenarios y aplicaciones del mundo real.",
+        "description2":"Me apasiona el desarrollo backend, en especial el lenguaje de programación java y su framework más conocido SpringBoot combinandolo con microservicios. Es un framework que me gusta por su robustez a la hora de proyectos grandes para empresas.",
 
         "description3":"Mi enfoque en el desarrollo va más allá de escribir código. Me esfuerzo por comprender las necesidades del usuario final y diseñar soluciones que no solo funcionen bien, sino que también proporcionen una experiencia excepcional. Creo firmemente en la importancia de la usabilidad y la accesibilidad."
 
@@ -26,6 +26,7 @@
         "description":"Las tecnologías que uso para crear aplicaciones web y móviles:"
     },
     "projects":{
+        "letras":"P",
         "title":"royectos",
         "description":"Estos son algunos de los proyectos que he desarrollado:",
 
